@@ -5,12 +5,16 @@ const Body = () => {
     <section className="w-full bg-[url('/body.png')] md:bg-cover h-[25rem] md:h-[35rem]">
       <div className="md:w-full md:flex md:justify-around md:relative">
         <h1 className="md:w-[5rem] md:relative md:left-[19rem] font-extrabold flex justify-center items-center">
-          <span className="flex justify-center text-[5rem] md:text-[10rem] text-slate-500">
-            01.
-          </span>
-          <span className="relative top-2.5 -left-5 md:-left-10 md:top-4 md:text-[2.5rem] text-slate-700">
-            HISTORY
-          </span>{" "}
+          <a href="">
+            <span className="flex justify-center text-[5rem] md:text-[10rem] text-slate-500">
+              01.
+            </span>
+          </a>
+          <a href="">
+            <span className="relative top-2.5 -left-5 md:-left-10 md:top-4 md:text-[2.5rem] text-slate-700">
+              HISTORY
+            </span>{" "}
+          </a>
         </h1>
         <div className="md:relative md:top-[12rem] md:-left-[7rem] md:w-[59rem] md:px-[6rem]">
           <p className="text-xs md:text-sm px-[1.5rem] md:px-[0.5rem]">

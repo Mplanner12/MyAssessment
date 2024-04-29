@@ -7,14 +7,23 @@ const Subscription = () => {
       <div className="m-0">
         <nav className="list-none p-[1rem] h-[3rem] flex justify-between">
           <li className="relative p-[1rem] md:left-[7rem]">
-            <img src="/logo.png" alt="logo" />
+            <a
+              href="
+            "
+            >
+              <img src="/logo.png" alt="logo" />
+            </a>
           </li>
           <ul className="relative md:-left-[10rem] w-fit flex justify-end text-white text-xs md:text-sm">
             <li className="px-[1rem]">
-              <p className="border-b-2">01. HISTORY</p>
+              <a href="">
+                <p className="border-b-2">01. HISTORY</p>
+              </a>
             </li>
             <li className="px-[1rem]">
-              <p className="border-b-2">02. TEAM</p>
+              <a href="">
+                <p className="border-b-2">02. TEAM</p>
+              </a>
             </li>
           </ul>
         </nav>
@@ -42,12 +51,12 @@ const Subscription = () => {
           <ul className="md:w-full md:relative md:left-[0rem] flex justify-center text-black text-xs md:text-sm pb-[1rem]">
             <li className="w-fit px-0 md:px-[1rem]">
               <p className="md:w-[5rem] border-b-2 border-gray-700 text-[0.6rem] md:text-sm">
-                01. HISTORY
+                <a href="">01. HISTORY</a>
               </p>
             </li>
             <li className="w-fit md:px-[1rem]">
               <p className="border-b-2 border-gray-700  text-[0.6rem] md:text-sm">
-                02. TEAM
+                <a href="">02. TEAM</a>
               </p>
             </li>
           </ul>
